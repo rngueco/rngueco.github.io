@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="dark-theme">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Riyana Gueco | Front-End Developer</title>
+        <link rel="stylesheet" href="css/twitter-inspired-cv.css">
+    </head>
+    <body>
+        <main>
+            <article class="profile">
+                <div class="profile__banner" style="background-color: rgb(255, 202, 211);"></div>
+                <div>
+                    <div>
+                        <div class="profile__pic">
+                            <img src="images/me.jpg" alt="Profile picture of Riyana Gueco">
+                        </div>
+                        <div class="profile__info">
+                            <h1 class="profile__info-display">Riyana Gueco</h1>
+                            <span class="profile__info-username">@RiyanaGueco</span>
+                        </div>
+                        <div class="profile__intro">
+                            <p>Hey there! I'm Riri. I'm a front-end developer who loves to learn all things HTML, CSS, and JavaScript. I read books sometimes 🤓</p>
+                            <div>
+                                <span class="profile__intro-location">📍 Baguio City </span>&nbsp; <span class="profile__intro-website">🔗 <a href="https://github.com/rngueco" target="_blank">github.com/rngueco</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile__data">
+                        <span class="profile__data-following">
+                            <span class="profile__data-following-number">140</span>
+                            <span class="profile__data-following-label">Following</span>
+                        </span>
+                        <span class="profile__data-followers">
+                            <span class="profile__data-followers-number">41</span>
+                            <span class="profile__data-following-label">Followers</span>
+                        </span>
+                        <span class="profile__data-likes">
+                            <span class="profile__data-likes-number">408</span>
+                            <span class="profile__data-likes-label">Likes</span>
+                        </span>
+                    </div>
+                    <nav>
+                        <a href="#work" class="_active" onclick="activateLink(this, work)">Work</a>
+                        <a href="#skills" onclick="activateLink(this, skills)">Skills</a>
+                        <a href="#education" onclick="activateLink(this, education)">Education</a>
+                        <a href="#socials" onclick="activateLink(this, socials)">Socials</a>
+                    </nav>
+                </div>
+            </article>
+            <span class="divider"></span>
+            <article class="tweet" id="work">
+                <div class="tweet__image" style="background-color: paleturquoise;"></div>
+                <div class="tweet__user">
+                    <h2 class="tweet__user-display">Work Experience</h2>
+                    <span class="tweet__user-username">@workexp</span>
+                </div>
+                <div class="tweet__body">
+                    <h3>Computer Programmer I</h3>
+                    <span>Research Project &middot; March 2020 - Current</span>
+                    <p>As a computer programmer, I worked with a team to build a web application using the Spring Boot framework with JSP, HTML, CSS, and JavaScript. Part of my responsibility is to ensure that the web application runs smoothly on all browsers and at various internet speeds. I also made sure that the web application follows the W3C guidelines and is accessible. I was also tasked to migrate an existing PHP web application into Symfony framework.</p>
+                    
+                    <br>
+                    
+                    <h3>Research Assistant I</h3>
+                    <span>Research Project &middot; January 2020 - February 2020</span>
+                    <p>As a research assistant, I worked with a team to build an online database using MySQL for an upcoming web application.</p>
+                </div>
+            </article>
+            <article class="tweet hidden" id="skills">
+                <div class="tweet__image" style="background-color: wheat;"></div>
+                <div class="tweet__user">
+                    <h2 class="tweet__user-display">Skills</h2>
+                    <span class="tweet__user-username">@skills</span>
+                </div>
+                <div class="tweet__body">
+                    <div class="progress">
+                        <span class="progress__label">HTML</span>
+                        <div class="progress__bar">
+                            <span class="progress__bar-completion" style="width: 90%"></span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="progress__label">CSS</span>
+                        <div class="progress__bar">
+                            <span class="progress__bar-completion" style="width: 85%"></span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="progress__label">JavaScript</span>
+                        <div class="progress__bar">
+                            <span class="progress__bar-completion" style="width: 60%"></span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="progress__label">Java</span>
+                        <div class="progress__bar">
+                            <span class="progress__bar-completion" style="width: 60%"></span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="progress__label">MySQL</span>
+                        <div class="progress__bar">
+                            <span class="progress__bar-completion" style="width: 55%"></span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="progress__label">PHP</span>
+                        <div class="progress__bar">
+                            <span class="progress__bar-completion" style="width: 55%"></span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="tweet hidden" id="education">
+                <div class="tweet__image" style="background-color: rosybrown;"></div>
+                <div class="tweet__user">
+                    <h2 class="tweet__user-display">Education</h2>
+                    <span class="tweet__user-username">@educ</span>
+                </div>
+                <div class="tweet__body">
+                    <h3>University of the Philippines (Baguio)</h3>
+                    <span>BS Computer Science &middot; 2015 - 2019</span>
+                    
+                    <br><br>
+
+                    <h3>Philippine Science High School (CARC)</h3>
+                    <span>2011 - 2015</span>
+                </div>
+            </article>
+            <article class="tweet hidden" id="socials">
+                <div class="tweet__image" style="background-color: slategray;"></div>
+                <div class="tweet__user">
+                    <h2 class="tweet__user-display">Socials</h2>
+                    <span class="tweet__user-username">@socials</span>
+                </div>
+                <div class="tweet__body">
+                    <p>Connect with me on internet places!</p>
+                    <div class="link-group">
+                        <span class="link-group__label">➡ <a href="https://twitter.com/RiyanaGueco" class="link-group__link" target="_blank">Twitter</a></span>
+                    </div>
+                    <div class="link-group">
+                        <span class="link-group__label">➡ <a href="https://github.com/rngueco" class="link-group__link" target="_blank">GitHub</a></span>
+                    </div>
+                    <div class="link-group">
+                        <span class="link-group__label">➡ <a href="https://linkedin.com/in/RiyanaGueco" class="link-group__link" target="_blank">LinkedIn</a></span>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </body>
+    <script>
+        function activateLink(link, section) {
+            var links = document.querySelectorAll('nav a');
+            var tweets = document.querySelectorAll('.tweet');
+
+            links.forEach(element => {
+                element.classList.remove("_active");
+            });
+
+            tweets.forEach(element => {
+                element.classList.add('hidden');
+            })
+
+            link.classList.add("_active");
+
+            section.classList.remove('hidden');
+        }
+    </script>
+</html>
